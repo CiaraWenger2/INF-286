@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>INF 286 - Lab 3</title>
+    <style>
+      table, th, tr, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        background-color: lightcoral;
+        color: black
+      }
+      </style>
+  
+      <style>
+      .people {
+        background-color: aquamarine;
+        color: black;
+        border: 1px solid black;
+        margin: 20px;
+        padding: 20px;
+        font-family: 'Arial Narrow'
+      }
+      </style>
+  
+      <style>
+          .classes {
+            background-color: rgb(248, 248, 95);
+            color: black;
+            border: 1px solid black;
+            margin: 20px;
+            padding: 20px;
+            font-family: 'Arial Narrow'
+          }
+      </style>
+  </head>
+
+  <body style="background-color:rgb(180, 180, 180);">
+  
+    <h1>Ciara Wenger</h1>
+    <p style="font-family: Arial">I'm 19 years old. I'm a freshman computer science major at NKU, with a junior standing. I am in Presidential Ambassadors, 
+    a volunteering club at NKU. I'm from Ohio and I have 4 siblings.</p>
+    <a href="https://github.com/" target="_blank">Go to GitHub!</a>
+    
+    <h2>Interests</h2>
+      <ul style="font-family:Arial">
+        <li>Watching movies</li>
+        <li>Programming</li>
+        <li>Reading</li>
+        <li>Writing</li>
+      </ul>
+    <h2>Favorite Shows/Movies</h2>
+      <ol style="font-family:Arial">
+        <li>Stranger Things</li>
+        <li>Wednesday</li>
+        <li>Queen's Gambit</li>
+        <li>My Neighbor Totoro</li>
+        <li>Encanto</li>
+        <li>Tangled</li>
+        <li>Scott Pilgrim Vs The World</li>
+      </ol>
+
+    <h2>Table</h2>
+    <table style="width:25%">
+      <tr>
+        <th>Name</th>
+        <th>Fav color</th>
+        <th>Pass/Fail</th>
+      </tr>
+      <tr>
+        <td>Carla</td>
+        <td>Purple</td>
+        <td>Pass</td>
+      </tr>
+      <tr>
+        <td>Ryan</td>
+        <td>Green</td>
+        <td>Pass</td>
+      </tr>
+      <tr>
+        <td>Aaron</td>
+        <td>Blue</td>
+        <td>Fail</td>
+      </tr>
+    </table>
+    
+    <div class="people" style="width:25%">
+      <h3>People</h3>
+      <p>Carla, Ryan, and Aaron</p>
+    </div>
+    <div class="classes" style="width:25%">
+      <h3>Classes</h3>
+      <p>Tne students are graded in their classes based on a pass/fail system.</p>
+    </div>
+
+  </body>
+
+</html>
